@@ -24,9 +24,6 @@ def testYourself():
     os.environ["GOOGLE_API_KEY"] = getpass.getpass('Please pass the API')
   
 
-'''
-AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w
-'''
     
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")

@@ -18,10 +18,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 
 
-'''
-if not os.environ.get("GOOGLE_API_KEY"):
-  os.environ["GOOGLE_API_KEY"] = getpass.getpass("Get the password")
-  '''
+
 
 print("Program to use vectorstore")
 

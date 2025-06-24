@@ -16,7 +16,7 @@ from langchain_core.documents import Document
 
 
 if not os.environ.get("GOOGLE_API_KEY"):
-  os.environ["GOOGLE_API_KEY"] = getpass.getpass("AIzaSyCgXw_zpkCoV47w0nvEP5sD9P03IUvjFVw")
+  os.environ["GOOGLE_API_KEY"] = getpass.getpass("<<API key>>")
 
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
