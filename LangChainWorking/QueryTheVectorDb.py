@@ -14,7 +14,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.documents import Document
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
+os.environ["GOOGLE_API_KEY"] = "<<API KEY>>"
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 vector_store = Chroma(
     collection_name="Collection_new",
