@@ -1,0 +1,4 @@
+os.environ["model_name"] = "gpt-4.1"
+os.environ["AZURE_OPENAI_API_VERSION"]="2024-12-01-preview"
+os.environ["AZURE_OPENAI_API_KEY"] = "FCgXOlJyeQ26sSNZCZLLnnvE28E4aBYcgP0sKCiFU9LtKSCMgeNBJQQJ99BFACHYHv6XJ3w3AAAAACOGfoO1"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "https://tejus-mc62mxo5-eastus2.cognitiveservices.azure.com/openai/deployments/text-embedding-3-large/embeddings?api-version=2023-05-15"
