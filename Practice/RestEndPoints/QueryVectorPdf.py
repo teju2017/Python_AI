@@ -10,8 +10,8 @@ import os
 
 
 def run_the_query(prompt_query):
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
+    os.environ["GOOGLE_API_KEY"] = ""
+    os.environ["GOOGLE_API_KEY"] = ""
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
     vector_store = Chroma(
     collection_name="Collection_pdf",

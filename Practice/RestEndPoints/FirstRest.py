@@ -32,8 +32,8 @@ app = FastAPI(
     },
 )
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
+os.environ["GOOGLE_API_KEY"] = ""
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= ""
 
 
 @app.get("/")

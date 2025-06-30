@@ -15,7 +15,7 @@ print("Working started")
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w")
+client = genai.Client(api_key="")
 
 result = client.models.embed_content(
         model="gemini-embedding-exp-03-07",

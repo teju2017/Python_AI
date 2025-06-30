@@ -15,7 +15,7 @@ import os
 
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
+os.environ["GOOGLE_API_KEY"] = ""
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 

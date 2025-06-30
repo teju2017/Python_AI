@@ -19,7 +19,7 @@ from langchain_community.document_loaders import TextLoader
 
 
 def test():
- os.environ["GOOGLE_API_KEY"] = "AIzaSyBDxJgLH-tN1cxGZYzPGq0bvtLvwYFY80w"
+ os.environ["GOOGLE_API_KEY"] = ""
  vector_store = Chroma(
       collection_name="Collection_pdf",
       embedding_function=GoogleGenerativeAIEmbeddings(model="models/embedding-001"),
